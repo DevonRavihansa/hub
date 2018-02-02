@@ -49,11 +49,11 @@ body{
 #wrapper.toggled-right .sidebar-right {
     width: 250px;
 }
-#page-content-wrapper {
+.page-content {
     width: 100%;
     position: absolute;
 }
-#wrapper.toggled-left #page-content-wrapper {
+#wrapper.toggled-left .page-content {
     margin-right: -250px;
 }
 
@@ -70,10 +70,10 @@ body{
     #wrapper.toggled-left .sidebar-left {
         width: 0;
     }
-    #page-content-wrapper {
+    .page-content {
         position: relative;
     }
-    #wrapper.toggled-left #page-content-wrapper {
+    #wrapper.toggled-left .page-content {
         position: relative;
         margin-right: 0;
     }
