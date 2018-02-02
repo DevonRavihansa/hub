@@ -1,15 +1,17 @@
-<div ng-repeat="device in devices">
-<!--     Device : {{device.name}} Mode: {{device.mode}} State: {{device.state}}
-    <div device-view="" mode="{{device.mode}}" state="{{device.state}}"></div> -->
-<!--     card -->
-    <div class="card" style="width: 10rem;">
-        <div class="card-header">{{device.name}}</div>
-        
-        <div class="card-body text-center">
-            <i class="fa fa-lightbulb-o fa-5x"></i>
+<div class="card-group">
+    <div ng-repeat="device in devices">
+    <!--     Device : {{device.name}} Mode: {{device.mode}} State: {{device.state}}
+        <div device-view="" mode="{{device.mode}}" state="{{device.state}}"></div> -->
+    <!--     card -->
+        <div class="card" style="width: 10rem;">
+            <div class="card-header">{{device.name}}</div>
+
+            <div class="card-body text-center">
+                <i class="fa fa-lightbulb-o fa-5x"></i>
+            </div>
+
+            <div class="card-footer"><small class="text-muted">3 mins ago</small></div>
         </div>
-        
-        <div class="card-footer"><small class="text-muted">3 mins ago</small></div>
+    <!--     /card -->
     </div>
-<!--     /card -->
 </div>
