@@ -9,7 +9,8 @@
                     <input type="number" min="0" class="form-control" ng-if="device.state === 'RANGE'" ng-model="device.status" />
                  </form>
                 <div ng-if="device.mode === 'INPUT'">
-                    <small>Status: No Motion</small>
+                    <small ng-if="device.state === 'SWITCH'">Status: OK</small>
+                    <small ng-if="device.state === 'RANGE'">Status: {{device.status}}</small>
                 </div>
                 <small class="text-muted">3 mins ago</small>
             </div>
