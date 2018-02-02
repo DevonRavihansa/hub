@@ -121,3 +121,12 @@
         margin-right: 0;
     }
 }
+.sidebar-nav .active {
+  /*background: #2f323b;*/
+  color: #949ba2;
+    border-left: 5px solid #0275d8;
+}
+.nav-link{
+  color: #949ba2;
+  font-size: 14px;
+}
