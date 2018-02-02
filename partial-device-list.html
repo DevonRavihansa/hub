@@ -5,7 +5,7 @@
 
             <div class="card-body text-center">
                 <div ng-if="device.mode === 'OUTPUT'">
-                    <i class="fa fa-lightbulb-o fa-5x" ng-class="device.status == 1 ? 'text-primary' : 'text-muted'"></i>
+                    <i class="fa fa-lightbulb-o fa-5x" ng-class="device.status > 0 ? 'text-primary' : 'text-muted'"></i>
                     <form>
                         <input type="number" class="form-control" ng-if="device.state === 'RANGE'" ng-model="device.status" />
                     </form>
