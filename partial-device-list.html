@@ -1,0 +1,15 @@
+<div class="card-deck">
+    <div ng-repeat="device in devices">
+        <div class="card" style="width: 10rem;">
+            <div class="card-header">{{device.name}}</div>
+
+            <div class="card-body text-center" ng-if="device.mode === 'OUTPUT'">
+                <i class="fa fa-lightbulb-o fa-5x"></i>
+            </div>
+
+            <div class="card-footer">
+              <small class="text-muted">3 mins ago</small>
+            </div>
+        </div>
+    </div>
+</div>
