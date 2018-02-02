@@ -4,12 +4,10 @@
             <div class="card-header">{{device.name}}</div>
 
             <div class="card-body text-center">
-                <div ng-if="device.mode === 'OUTPUT'">
-                    <form>
+                    <form ng-if="device.mode === 'OUTPUT'">
                         <i class="fa fa-lightbulb-o fa-5x" ng-class="device.status > 0 ? 'text-primary' : 'text-dark'" ng-click="device.status = !device.status"></i>
                         <input type="number" min="0" class="form-control" ng-if="device.state === 'RANGE'" ng-model="device.status" />
                     </form>
-                </div>
                 <div ng-if="device.mode === 'INPUT'">
                     <small>Status: No Motion</small>
                 </div>
