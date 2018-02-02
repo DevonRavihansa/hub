@@ -1,3 +1,3 @@
 https://www.codeply.com/go/tXLpzXtvgi
 
-<img src="hub/dashboard/dashboard.png" />
+<img src="https://github.com/DevonRavihansa/hub/raw/master/dashboard/dashboard.png" />
