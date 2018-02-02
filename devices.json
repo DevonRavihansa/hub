@@ -1,1 +1,1 @@
-[{"id":1,"name":"kitchen","mode":"OUTPUT","state":"SWITCH","status":0},{"id":2,"name":"living","mode":"OUTPUT","state":"SWITCH","status":1}]
+[{"id":1,"name":"kitchen","mode":"INPUT","state":"SWITCH","status":0},{"id":2,"name":"living","mode":"OUTPUT","state":"RANGE","status":1}]
