@@ -1,7 +1,7 @@
 body{
     overflow-x:hidden;
 }
-#wrapper {
+.wrapper {
     padding-left: 0;
     padding-right: 0;
     -webkit-transition: all 0.5s ease;
@@ -9,10 +9,10 @@ body{
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-#wrapper.toggled-left {
+.wrapper.toggled-left {
     padding-left: 250px;
 }
-#wrapper.toggled-right {
+.wrapper.toggled-right {
     padding-right: 250px;
 }
 .sidebar{
@@ -35,37 +35,37 @@ body{
     right: 250px;
     margin-right: -250px;
 }
-#wrapper.toggled-left .sidebar-left {
+.wrapper.toggled-left .sidebar-left {
     width: 250px;
 }
-#wrapper.toggled-right .sidebar-right {
+.wrapper.toggled-right .sidebar-right {
     width: 250px;
 }
 .page-content {
     width: 100%;
     position: absolute;
 }
-#wrapper.toggled-left .page-content {
+.wrapper.toggled-left .page-content {
     margin-right: -250px;
 }
 
 @media(min-width:768px) {
-    #wrapper {
+    .wrapper {
         padding-left: 250px;
     }
-    #wrapper.toggled-left {
+    .wrapper.toggled-left {
         padding-left: 0;
     }
-    #wrapper .sidebar-left {
+    .wrapper .sidebar-left {
         width: 250px;
     }
-    #wrapper.toggled-left .sidebar-left {
+    .wrapper.toggled-left .sidebar-left {
         width: 0;
     }
     .page-content {
         position: relative;
     }
-    #wrapper.toggled-left .page-content {
+    .wrapper.toggled-left .page-content {
         position: relative;
         margin-right: 0;
     }
