@@ -1,8 +1,8 @@
-$("#toggle-left").click(function(e) {
+$(".sidebar-toggler-left").click(function(e) {
         e.preventDefault();
         $(".wrapper").toggleClass("toggled-left");
 });
-$("#toggle-right").click(function(e) {
+$(".sidebar-toggler-right").click(function(e) {
         e.preventDefault();
         $(".wrapper").toggleClass("toggled-right");
 });
