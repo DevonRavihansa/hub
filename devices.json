@@ -1,1 +1,1 @@
-[{"id":1,"name":"kitchen","mode":"INPUT","state":"SWITCH","status":0},{"id":2,"name":"living","mode":"OUTPUT","state":"RANGE","status":1}]
+[{"id":1,"name":"Kitchen light 1","mode":"OUTPUT","state":"SWITCH","status":0},{"id":2,"name":"Living Fan","mode":"OUTPUT","state":"RANGE","status":50},{"id":3,"name":"Gate Motion","mode":"INPUT","state":"SWITCH","status":1},{"id":4,"name":"Bed Room Temperature","mode":"INPUT","state":"RANGE","status":28}]
