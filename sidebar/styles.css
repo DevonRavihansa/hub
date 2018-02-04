@@ -1,0 +1,65 @@
+.sidebar{
+    background:#24262d;
+}
+.sidebar-nav a{
+    color: #949ba2;
+}
+.sidebar-nav .navbar-collapse a{
+    color:#666b72;
+    font-size:0.8125rem;
+    line-height:1;
+}
+.sidebar-nav > a.active{
+    background: #2f323b;
+    border-left: 3px solid #0275d8;
+}
+.sidebar-nav > a:hover {
+    background: #2f323b;
+}
+.sidebar-nav .navbar-collapse a.active, .sidebar-nav .navbar-collapse a:hover{
+    color:#f8f9fa;
+}
+.sidebar-nav > .navbar-collapse{
+    padding-left:16px;
+}
+.sidebar-nav > .navbar-collapse .navbar-collapse{
+    padding-left:4px;
+}
+.sidebar-nav .sidebar-icon{
+    padding-right: 10px;
+}
+.sidebar-nav .sidebar-brand{
+    background-color:transparent;
+    border:none;
+}
+.sidebar-nav .sidebar-brand a:hover{
+    color: #6c757d;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+[data-toggle="collapse"] .collapse-icon{ 
+    -webkit-transform: rotate(0deg); 
+    -moz-transform: rotate(0deg); 
+    -ms-transform: rotate(0deg); 
+    -o-transform: rotate(0deg); 
+    transform: rotate(0deg);
+    
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+[data-toggle="collapse"].collapsed .collapse-icon{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+}
