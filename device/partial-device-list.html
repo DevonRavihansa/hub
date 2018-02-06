@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4" ng-repeat="device in devices">
+        <div class="card card-control" style="max-width:10rem;height:10rem;">
+            <div class="card-header d-flex justify-content-between">
+                <div class="card-title">{{device.name}}</div>
+                <a class="small" href="#"><i class="fa fa-cog"></i></a>
+            </div>
+            <div class="card-body text-center">
+                <form ng-if="device.mode === 'OUTPUT'">
+                    <a href="#"><i class="fa {{device.icon ? device.icon : 'fa-spinner fa-pulse'}} fa-5x" ng-class="device.status > 0 ? 'text-primary' : 'text-dark'" ng-click="device.status = !device.status"></i></a>
+                    <!--<input type="number" min="0" class="form-control" ng-if="device.state === 'RANGE'" ng-model="device.status" />-->
+                 </form>
+                <div ng-if="device.mode === 'INPUT'">
+                    <small ng-if="device.state === 'SWITCH'">Status: OK</small>
+                    <small ng-if="device.state === 'RANGE'">Status: {{device.status}}</small>
+                </div>
+            </div>
+            <div class="card-footer">
+                <small>3 min ago</small>
+            </div>
+        </div>
+    </div>
+</div>
