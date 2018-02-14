@@ -1,0 +1,40 @@
+<!--Device Configuration | create a device-->
+<div class="container col-10 col-sm-8 col-md-6 col-lg-4">
+    <form class="form" role="form" autocomplete="off">
+        <div class="form-group">
+            <label for="inputResetPasswordEmail">Device Name</label>
+            <input type="email" class="form-control" id="inputResetPasswordEmail" required="" aria-describedby="passwordHelpBlock" placeholder="My Device">
+            <small id="passwordHelpBlock" class="form-text text-muted">This will be yours device's name.</small>
+        </div>
+        <div class="form-group">
+            <label for="inputResetPasswordEmail">IPv4 Address</label>
+            <input type="email" class="form-control" id="inputResetPasswordEmail" required="" aria-describedby="passwordHelpBlock" placeholder="192.168.xxx.xxx">
+            <small id="passwordHelpBlock" class="form-text text-muted">IP Address information of the network device.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Device Type</label>
+            <select class="form-control" id="exampleFormControlSelect1" required="" aria-describedby="passwordHelpBlock">
+                <option>Light</option>
+                <option>Plug</option>
+                <option>Switch</option>
+                <option>Tv</option>
+            </select>
+            <small id="passwordHelpBlock" class="form-text text-muted">Password reset instructions will be sent to this email address.</small>
+        </div>
+        
+        <div class="form-group">
+            <label for="inputResetPasswordEmail">Channel</label>
+            <input type="email" class="form-control" id="inputResetPasswordEmail" required="" aria-describedby="passwordHelpBlock" placeholder="ch0">
+            <small id="passwordHelpBlock" class="form-text text-muted">Password reset instructions will be sent to this email address.</small>
+        </div>
+        
+        <div class="form-group">
+            <label for="inputResetPasswordEmail">Description</label>
+            <textarea class="form-control" id="inputResetPasswordEmail" aria-describedby="passwordHelpBlock" rows="3"></textarea>
+            <small id="passwordHelpBlock" class="form-text text-muted">Additional description about the device.</small>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary float-right">Add</button>
+        </div>
+    </form>
+</div>
