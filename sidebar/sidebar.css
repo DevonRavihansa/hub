@@ -49,6 +49,9 @@ body{
 }
 
 @media(min-width:768px) {
+    body {
+        margin-bottom: 60px;
+    }
     .wrapper {
         padding-left: 200px;
     }
