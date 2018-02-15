@@ -68,6 +68,9 @@ body{
         position: relative;
         margin-right: 0;
     }
+    .sticky-footer{
+        bottom:0;
+    }
 }
 .sidebar-nav {
     position: absolute;
