@@ -1,7 +1,9 @@
 body{
     overflow-x:hidden;
+        margin-bottom: 60px;
 }
 .wrapper {
+    padding-bottom:60px;
     padding-left: 0;
     padding-right: 0;
     -webkit-transition: all 0.5s ease;
@@ -54,6 +56,8 @@ body{
     }
     .wrapper {
         padding-left: 200px;
+        
+    padding-bottom:60px;
     }
     .wrapper.toggled-left {
         padding-left: 0;
