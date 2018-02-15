@@ -43,9 +43,11 @@ body{
 .page-content {
     width: 100%;
     position: absolute;
+    margin-bottom: 60px;
 }
 .wrapper.toggled-left .page-content {
     margin-right: -200px;
+    margin-bottom: 60px;
 }
 
 @media(min-width:768px) {
@@ -68,6 +70,7 @@ body{
     .wrapper.toggled-left .page-content {
         position: relative;
         margin-right: 0;
+        margin-bottom: 60px;
     }
 }
 .sidebar-nav {
