@@ -63,6 +63,7 @@ body{
     }
     .page-content {
         position: relative;
+        margin-bottom: 60px;
     }
     .wrapper.toggled-left .page-content {
         position: relative;
